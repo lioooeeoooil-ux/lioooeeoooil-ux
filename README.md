@@ -6,10 +6,7 @@
 </p>
 
 <p align="center">
-  <samp>
-    你好，我是 <b>lioooeeoooil-ux</b>。<br>
-    正在探索人和 AI 如何协作写作，喜欢把新想法做成真实、有用的作品。
-  </samp>
+  <img alt="你好，我是 lioooeeoooil-ux。正在探索人和 AI 如何协作写作，喜欢把新想法做成真实、有用的作品。" src="assets/wave.svg" width="720">
 </p>
 
 <p align="center">
