@@ -1,20 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="760" height="120" viewBox="0 0 760 120">
 <defs>
-<linearGradient id="shine" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="260" y2="30">
+<linearGradient id="shine" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="300" y2="30">
 <stop offset="0" class="g0"/>
+<stop offset="0.4" class="g0"/>
 <stop offset="0.5" class="g1"/>
+<stop offset="0.6" class="g0"/>
 <stop offset="1" class="g0"/>
-<animateTransform attributeName="gradientTransform" type="translate" values="-320 0;1080 0" dur="3.6s" repeatCount="indefinite"/>
+<animateTransform attributeName="gradientTransform" type="translate" values="-340 0;1100 0" dur="3.6s" repeatCount="indefinite"/>
 </linearGradient>
 </defs>
 <style>
 text{font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,sans-serif}
-.g0{stop-color:#24292f}
-.g1{stop-color:#58a6ff}
-.sp{fill:#58a6ff;opacity:0;transform-box:fill-box;transform-origin:center;animation:twinkle 2.8s ease-in-out infinite}
+.g0{stop-color:#57606a}
+.g1{stop-color:#0969da}
+.sp{fill:#0969da;opacity:0;transform-box:fill-box;transform-origin:center;animation:twinkle 2.8s ease-in-out infinite}
 @keyframes twinkle{0%,100%{opacity:0;transform:scale(.4)}50%{opacity:1;transform:scale(1)}}
 @media (prefers-color-scheme:dark){
-.g0{stop-color:#e6edf3}
+.g0{stop-color:#6e7681}
 .g1{stop-color:#ffffff}
 .sp{fill:#ffffff}
 }
